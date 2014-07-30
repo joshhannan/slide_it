@@ -1,0 +1,93 @@
+body {
+    background: #000000;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #FFFFFF;
+}
+.banner {
+    width: 100%;
+    float: left;
+    position: relative;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+.banner_slides {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.nav {
+    position: absolute;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 0 0 -570px;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+}
+.nav .prev {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    height: 5%;
+    width: 5%;
+    text-indent: -9999px;
+    display: block;
+    background: green;
+}
+.nav .next {
+    position: absolute;
+    right: 0;
+    top: 45%;
+    height: 5%;
+    width: 5%;
+    text-indent: -9999px;
+    display: block;
+    background: green;
+}
+.wrapper {
+    width: 100%;
+    float: left;
+    position: relative;
+    max-height: 400px;
+    min-height: 250px;
+}
+.banner_slide {
+    width: 100%;
+    float: left;
+    position: relative;
+    background: transparent;
+}
+
+.banner_slide .image {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.banner_slide .image img {
+    width: auto;
+    height: 100%;
+}
+.banner_slide .text {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    right: 20%;
+    bottom: 5%;
+    z-index: 2;
+}
+header, .main, footer {
+    width: 100%;
+    float: left;
+    padding: 5% 0;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
