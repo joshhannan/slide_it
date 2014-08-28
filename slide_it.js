@@ -117,12 +117,12 @@
 			object.attr('id', variable_containers);
 			$('#'+variable_containers).children().first().addClass('slider');
 			$('#'+variable_containers).find('.slider').children('div').addClass('slide');
-			setTimeout( size_slider(), 500);
-			setTimeout( setup_slider(), 500 );
+			setTimeout( size_slider, 500);
+			setTimeout( setup_slider, 500 );
 			object.animate({ opacity: 1 }, 500);
 			$(window).resize(function() {
-				setTimeout( size_slider(), 500);
-				setTimeout( setup_slider(), 500 );
+				setTimeout( size_slider, 500);
+				setTimeout( setup_slider, 500 );
 			});
 			if( settings.orientation === 'vertical' ) {
 				$(settings.prev_button).click(function() {
